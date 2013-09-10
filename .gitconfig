@@ -16,6 +16,17 @@
 	# Undo a `git push`
 	undopush = push -f origin HEAD^:master
 
+	# More aliases from https://github.com/joejag/dotfiles/blob/master/git/gitconfig
+	st = status -sb
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	ready = rebase -i @{u}
+	lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since yesterday --author joe
+	purr = pull --rebase
+
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
