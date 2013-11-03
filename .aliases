@@ -5,7 +5,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Dropbox"
 alias p="cd ~/Projects"
 alias g="git"
 alias v="vim"
@@ -13,6 +13,25 @@ alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
+alias htdocs="cd ~/Dropbox/dropbox-htdocs"
+
+# programs
+alias st='open -a "Sublime Text"'
+# also/or do this:
+# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+alias preview="open -a '$PREVIEW'"
+alias xcode="open -a '/Developer/Applications/Xcode.app'"
+alias filemerge="open -a '/Developer/Applications/Utilities/FileMerge.app'"
+alias safari="open -a safari"
+alias firefox="open -a firefox"
+alias opera="open -a opera"
+alias chrome="open -a google\ chrome"
+alias chromium="open -a chromium"
+alias dashcode="open -a dashcode"
+alias f='open -a Finder'
+alias fireworks="open -a '/Applications/Adobe Fireworks CS6/Adobe Fireworks CS6.app'"
+alias photoshop="open -a '/Applications/Adobe Photoshop CS6/Adobe Photoshop.app'"
+alias gpr="~/code/gpr $1"
 
 # List all files colorized in long format
 alias l="ls -Gl"
@@ -105,3 +124,13 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 # Edit hosts file
 alias hosts="sudo nano /private/etc/hosts"
+
+
+# npm
+alias npmp="sudo npm publish"
+alias npma="sudo npm adduser"
+alias npmi="sudo npm install"
+alias npmg="sudo npm install -g"
+alias npmu="sudo npm update"
+alias npmr="sudo npm uninstall"
+alias npmrg="sudo npm uninstall -g"
