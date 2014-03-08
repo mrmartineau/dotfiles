@@ -109,17 +109,17 @@ function gci() {
 #   $ clone things
 #     .. git clone git@github.com:addyosmani/things.git things
 #     .. cd things
-#     .. subl .
+#     .. st .
 #
 #   $ clone yeoman generator
 #     .. git clone git@github.com:yeoman/generator.git generator
 #     .. cd generator
-#     .. subl .
+#     .. st .
 #
 #   $ clone git@github.com:addyosmani/dotfiles.git
 #     .. git clone git@github.com:addyosmani/dotfiles.git dotfiles
 #     .. cd dots
-#     .. subl .
+#     .. st .
 
 function clone {
   # customize username to your own
@@ -142,7 +142,7 @@ function clone {
     url="git@github.com:$url/$repo.git";
   fi
 
-  git clone $url $repo && cd $repo && subl .;
+  git clone $url $repo && cd $repo && st .;
 }
 
 
