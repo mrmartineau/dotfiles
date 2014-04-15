@@ -45,6 +45,7 @@ install tree
 install webkit2png
 install zopfli
 install p7zip
+install hub
 
 install homebrew/versions/lua52
 
