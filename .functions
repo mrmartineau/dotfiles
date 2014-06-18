@@ -77,7 +77,7 @@ function codepoint() {
 
 ##########################################################
 # Install npm modules
-function npm() {
+function npmi() {
   npm install --save-dev "$@"
 }
 
