@@ -40,4 +40,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
+[ -s "/Users/zmartineau/.scm_breeze/scm_breeze.sh" ] && source "/Users/zmartineau/.scm_breeze/scm_breeze.sh"
 . z.sh
