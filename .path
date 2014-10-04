@@ -1,0 +1,27 @@
+## Export PATH
+export PATH=/usr/local/bin:$HOME/bin:/usr/local/sbin:$PATH
+
+## Put brew's ruby in front
+export PATH=/usr/local/opt/ruby/bin:$PATH
+
+## Use gnu tools instead
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
+## Modify NODE_PATH
+export NODE_PATH=lib
+
+# Taken from https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo-linux.md
+# NPM_PACKAGES="~/.npm-packages"
+# NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+# PATH="$NPM_PACKAGES/bin:$PATH"
+# Unset manpath so we can inherit from /etc/manpath via the `manpath`
+# command
+# unset MANPATH  # delete if you already modified MANPATH elsewhere in your config
+# MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+
+
+# export PATH="/usr/local/bin:$HOME/bin:$PATH:/usr/local/bin/npm:/usr/local/opt/ruby/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+# export NODE_PATH="/usr/local/lib/node"
+# export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+# export PATH=/usr/local/share/npm/bin:/usr/local/opt/ruby/bin:/usr/local/bin:$PATH

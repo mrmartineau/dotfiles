@@ -1,5 +1,5 @@
-# Add `~/bin` to the `$PATH`
-export PATH="/usr/local/bin:$HOME/bin:$PATH:/usr/local/bin/npm:/usr/local/opt/ruby/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+# Use sublime for Ctrl+x+e
+EDITOR="subl -w"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
