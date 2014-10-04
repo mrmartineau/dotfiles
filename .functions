@@ -5,7 +5,7 @@ function md() {
 
 # find shorthand
 function f() {
-    find . -name "$1"
+	find . -name "$1"
 }
 
 # Use Git’s colored diff when available
@@ -130,16 +130,16 @@ function clone {
 
   if [[ ${url:0:4} == 'http' || ${url:0:3} == 'git' ]]
   then
-    # just clone this thing.
-    repo=$(echo $url | awk -F/ '{print $NF}' | sed -e 's/.git$//');
+	# just clone this thing.
+	repo=$(echo $url | awk -F/ '{print $NF}' | sed -e 's/.git$//');
   elif [[ -z $repo ]]
   then
-    # my own stuff.
-    repo=$url;
-    url="git@github.com:$username/$repo";
+	# my own stuff.
+	repo=$url;
+	url="git@github.com:$username/$repo";
   else
-    # not my own, but I know whose it is.
-    url="git@github.com:$url/$repo.git";
+	# not my own, but I know whose it is.
+	url="git@github.com:$url/$repo.git";
   fi
 
   git clone $url $repo && cd $repo && st .;
@@ -152,9 +152,9 @@ function gf() {
   [[ "$remote" ]] || return
   local user_repo="$(echo "$remote" | perl -pe 's/.*://;s/\.git$//')"
   git log $* --name-status --color | awk "$(cat <<AWK
-    /^.*commit [0-9a-f]{40}/ {sha=substr(\$2,1,7)}
-    /^[MA]\t/ {printf "%s\thttps://github.com/$user_repo/blob/%s/%s\n", \$1, sha, \$2; next}
-    /.*/ {print \$0}
+	/^.*commit [0-9a-f]{40}/ {sha=substr(\$2,1,7)}
+	/^[MA]\t/ {printf "%s\thttps://github.com/$user_repo/blob/%s/%s\n", \$1, sha, \$2; next}
+	/.*/ {print \$0}
 AWK
   )" | less -F
 }

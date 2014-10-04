@@ -11,7 +11,7 @@ git_branch() {
 git_dirty() {
 	# If the git status has *any* changes (e.g. dirty), echo our character
 	if [[ -n "$(git status --porcelain 2> /dev/null)" ]]; then
-		echo "☢ "
+		echo "💀 "
 	fi
 }
 
@@ -80,7 +80,7 @@ git_prompt() {
 
 ## Customize the terminal input line
 prompt() {
-	PS1="  🐶  $color_blue\W$color_reset $(git_prompt)$color_yellow$ $color_reset"
+	PS1="🐶 $color_blue ❮ \w ❯$color_reset $(git_prompt)$color_yellow \n↪ $ $color_reset"
 }
 
 PROMPT_COMMAND=prompt

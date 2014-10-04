@@ -13,9 +13,6 @@ alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
-alias htdocs="cd ~/htdocs"
-alias github="cd ~/Google Drive/code/github"
-alias tmw="cd ~/Google Drive/code/github/tmw"
 alias aliases="st ~/.aliases"
 
 # programs

@@ -1,6 +1,3 @@
-# Use sublime for Ctrl+x+e
-EDITOR="subl -w"
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -33,12 +30,13 @@ done
 complete -W "NSGlobalDomain" defaults
 
 # Add `killall` tab completion for common apps
-complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall
+complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal iTerm" killall
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
+
 [ -s "/Users/zmartineau/.scm_breeze/scm_breeze.sh" ] && source "/Users/zmartineau/.scm_breeze/scm_breeze.sh"
 . z.sh
