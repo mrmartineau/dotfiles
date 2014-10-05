@@ -76,12 +76,6 @@ function codepoint() {
 }
 
 ##########################################################
-# Install npm modules
-function npmi() {
-  npm install --save-dev "$@"
-}
-
-
 # Install Grunt plugins
 # Install a grunt plugin and save to devDependencies
 function gi() {
