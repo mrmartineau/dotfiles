@@ -32,6 +32,7 @@ alias f='open -a Finder'
 alias fireworks="open -a '/Applications/Adobe Fireworks CS6/Adobe Fireworks CS6.app'"
 alias photoshop="open -a '/Applications/Adobe Photoshop CS6/Adobe Photoshop.app'"
 alias gpr="~/code/gpr $1"
+alias git=hub # alias hub to git https://hub.github.com/
 
 # List all files colorized in long format
 alias l="ls -Gl"
