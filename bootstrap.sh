@@ -2,7 +2,8 @@
 cd "$(dirname "$0")"
 git pull
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" --exclude "fonts/" --exclude "colorschemes/" -av . ~
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" --exclude "colorschemes/" -av . ~
+	sh "~/install.sh"
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
