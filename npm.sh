@@ -12,4 +12,5 @@ NPM=(
 	csslint
 )
 
+echo "Installing global npm packages..."
 npm install -g ${NPM[@]}
