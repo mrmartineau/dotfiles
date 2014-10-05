@@ -8,7 +8,7 @@ export PATH=/usr/local/opt/ruby/bin:$PATH
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 ## Modify NODE_PATH
-export NODE_PATH=lib
+export NODE_PATH=lib:/usr/local/lib/node_modules
 
 # Taken from https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo-linux.md
 # NPM_PACKAGES="~/.npm-packages"
