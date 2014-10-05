@@ -1,4 +1,4 @@
-# Zander's dotfiles
+# Zander's [.]files
 
 ## Installation
 
