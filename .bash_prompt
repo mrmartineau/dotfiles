@@ -112,7 +112,7 @@ __git_info() {
 
 ## Customize the terminal input line
 prompt() {
-	PS1="🐶 $color_blue ❮ \w ❯$color_reset $(__git_info)$color_yellow \n↪ $ $color_reset"
+	PS1="\n$color_blue \w 🐶$color_reset $(__git_info)$color_yellow \n ❯ $ $color_reset"
 }
 
 PROMPT_COMMAND=prompt
