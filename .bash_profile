@@ -38,5 +38,10 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
 
-[ -s "/Users/zmartineau/.scm_breeze/scm_breeze.sh" ] && source "/Users/zmartineau/.scm_breeze/scm_breeze.sh"
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
 . z.sh
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	. $(brew --prefix)/etc/bash_completion
+fi

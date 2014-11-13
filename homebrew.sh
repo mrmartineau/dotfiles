@@ -23,6 +23,7 @@ FORMULAS=(
 	wget --enable-iri
 	z
 	git
+	bash-completion
 	node
 	tree
 	mongodb
