@@ -58,6 +58,7 @@ FORMULAS=(
 	josegonzalez/homebrew-php/php55
 	homebrew/versions/lua52
 	sitespeedio
+	youtube-dl
 )
 
 # Homebrew casks
