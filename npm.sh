@@ -10,6 +10,9 @@ NPM=(
 	jscs
 	stylestats
 	csslint
+	tmi
+	psi
+	a11y
 )
 
 echo "Installing global npm packages..."
