@@ -13,6 +13,7 @@ NPM=(
 	tmi
 	psi
 	a11y
+	gg
 )
 
 echo "Installing global npm packages..."
