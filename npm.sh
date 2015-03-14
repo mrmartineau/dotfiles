@@ -14,6 +14,7 @@ NPM=(
 	psi
 	a11y
 	gg
+	nodemon
 )
 
 echo "Installing global npm packages..."
