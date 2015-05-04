@@ -15,6 +15,7 @@ NPM=(
 	a11y
 	gg
 	nodemon
+	jasmine
 )
 
 echo "Installing global npm packages..."
