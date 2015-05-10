@@ -3,6 +3,7 @@ GEM=(
 	jekyll
 	redcarpet
 	rouge
+	travis
 )
 
 echo "Installing Ruby gems..."

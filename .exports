@@ -1,4 +1,4 @@
-# Make vim the default editor
+# Make Sublime the default editor
 EDITOR="subl -w"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"

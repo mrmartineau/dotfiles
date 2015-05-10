@@ -4,6 +4,7 @@ NPM=(
 	yo
 	bower
 	generator-kickoff
+	generator-generator
 	finch
 	gulp
 	jshint
@@ -15,6 +16,14 @@ NPM=(
 	a11y
 	gg
 	nodemon
+	jasmine
+	browserify
+	watchify
+	phantomas
+	karma-cli
+	istanbul
+	gh
+	dploy
 )
 
 echo "Installing global npm packages..."
