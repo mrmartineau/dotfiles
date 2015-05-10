@@ -134,3 +134,5 @@ alias npmu="npm update"
 alias npmr="npm uninstall"
 alias npmrg="npm uninstall -g"
 alias npmui="npm-check-updates -u && npm install"
+
+alias fuck='eval $(thefuck $(fc -ln -1)); history -r'

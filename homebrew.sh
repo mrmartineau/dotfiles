@@ -59,6 +59,7 @@ FORMULAS=(
 	homebrew/versions/lua52
 	sitespeedio
 	youtube-dl
+	thefuck
 )
 
 # Homebrew casks
