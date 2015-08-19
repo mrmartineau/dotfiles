@@ -24,6 +24,7 @@ NPM=(
 	istanbul
 	gh
 	dploy
+	vtop
 )
 
 echo "Installing global npm packages..."
