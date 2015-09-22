@@ -61,6 +61,17 @@ color_teal="\[$(tput setaf 6)\]"
 color_white="\[$(tput setaf 7)\]"
 color_black="\[$(tput setaf 8)\]"
 
+color_red_bg="\[$(tput setab 1)\]"
+color_green_bg="\[$(tput setab 2)\]"
+color_yellow_bg="\[$(tput setab 3)\]"
+color_blue_bg="\[$(tput setab 4)\]"
+color_purple_bg="\[$(tput setab 5)\]"
+color_teal_bg="\[$(tput setab 6)\]"
+color_white_bg="\[$(tput setab 7)\]"
+color_black_bg="\[$(tput setab 8 )\]"
+
+color_bg="\[$(tput bold; tput setab 3; tput setaf 0)\]"
+
 # Unicode symbols
 readonly PS_SYMBOL_DARWIN=''
 readonly PS_SYMBOL_LINUX='$'
