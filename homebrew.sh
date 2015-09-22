@@ -21,7 +21,6 @@ FORMULAS=(
 	bash
 	caskroom/cask/brew-cask
 	wget --enable-iri
-	z
 	git
 	bash-completion
 	node
@@ -60,6 +59,8 @@ FORMULAS=(
 	sitespeedio
 	youtube-dl
 	thefuck
+	z
+	michaeldfallen/formula/git-radar
 )
 
 # Homebrew casks
