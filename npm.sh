@@ -1,30 +1,42 @@
 NPM=(
 	grunt-cli
-	npm-check-updates
+	gulp
+	webpack
+	
 	yo
 	bower
 	generator-kickoff
 	generator-generator
-	finch
-	gulp
+	
+	nodemon
+	npm-check-updates
+	
 	jshint
 	jscs
 	stylestats
 	csslint
+	
 	tmi
 	psi
 	a11y
-	gg
-	nodemon
-	jasmine
+	
 	browserify
 	watchify
-	phantomas
+	disc
+	inherits
+	
 	karma-cli
 	istanbul
+	jasmine
+	phantomas
+	
 	gh
+	gg
 	dploy
+	
 	vtop
+	
+	finch
 )
 
 echo "Installing global npm packages..."
