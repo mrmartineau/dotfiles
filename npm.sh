@@ -16,6 +16,7 @@ NPM=(
 	nodemon
 	npm-check-updates
 	ntl
+	live-server
 
 	eslint
 	stylestats
