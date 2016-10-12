@@ -71,7 +71,14 @@ FORMULAS=(
 )
 
 # Homebrew casks
-# APPS=(
+APPS=(
+	mojibar
+	qlcolorcode
+	qlstephen
+	qlmarkdown
+	quicklook-json
+	qlprettypatch
+	quicklook-csv
 # 	dropbox
 # 	transmission
 # 	torbrowser
@@ -101,22 +108,15 @@ FORMULAS=(
 # 	recordit
 # 	transmission
 # 	appcleaner
-# 	qlcolorcode
-# 	qlstephen
-# 	qlmarkdown
-# 	quicklook-json
-# 	qlprettypatch
-# 	quicklook-csv
 # 	betterzipql
 # 	webp-quicklook
 # 	suspicious-package
-# )
+)
 
 FONTS=(
 	font-font-input
 	font-inconsolata
-	font-source-code-pro
-	font-droid-sans-mono
+	fira-code
 )
 
 

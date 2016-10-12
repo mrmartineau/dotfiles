@@ -1,6 +1,5 @@
 NPM=(
 	grunt-cli
-	gulp
 	webpack
 
 	browserify
@@ -9,18 +8,21 @@ NPM=(
 	inherits
 
 	yo
-	bower
 	generator-kickoff
 	generator-generator
-
+	
+	n
 	nodemon
-	npm-check-updates
 	ntl
+	npm-check
 	live-server
+	learnyounode
+	
+	now
+	now-serve
 
 	eslint
 	stylestats
-	csslint
 
 	tmi
 	psi
@@ -33,11 +35,17 @@ NPM=(
 
 	gh
 	gg
-	dploy
 
 	vtop
 
 	finch
+	
+	commitizen
+	
+	concurrently
+	parallelshell
+	
+	gifi
 )
 
 echo "Installing global npm packages..."
