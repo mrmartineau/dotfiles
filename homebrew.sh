@@ -5,12 +5,13 @@ set -e
 TAPS=(
 	homebrew/dupes
 	homebrew/versions
+	homebrew/completions
 	caskroom/cask
 	caskroom/fonts
 	caskroom/versions
-	# for sitespeedio
-	sitespeedio/sitespeedio
 	tobli/browsertime
+	michaeldfallen/formula/
+	josegonzalez/homebrew-php/
 )
 
 # Homebrew Formulas
@@ -18,13 +19,26 @@ FORMULAS=(
 	coreutils
 	moreutils
 	findutils
+	gnu-sed --with-default-names
 	bash
-	caskroom/cask/brew-cask
+	brew-cask
 	wget --enable-iri
 	git
-	bash-completion
-	node
+	bash-completion2
+	brew-cask-completion
+	grep
+	openssh
+	screen
 	tree
+	node
+	ffmpeg --with-libvpx
+	youtube-dl
+	thefuck
+	z
+	gh
+	git-radar
+	hub
+	
 	mongodb
 	phantomjs
 	macvim --override-system-vim --custom-icons --with-lua
@@ -50,17 +64,10 @@ FORMULAS=(
 	webkit2png
 	zopfli
 	p7zip
-	hub
 	pv
 	ack
-	homebrew/dupes/grep
-	josegonzalez/homebrew-php/php55
-	homebrew/versions/lua52
-	sitespeedio
-	youtube-dl
-	thefuck
-	z
-	michaeldfallen/formula/git-radar
+	php55
+	lua52
 )
 
 # Homebrew casks
@@ -133,7 +140,6 @@ main() {
 	echo "installing apps..."
 	brew cask install --appdir=$appdir ${APPS[@]}
 
-	brew cask alfred link
 	# Remove outdated versions from the cellar
 	brew cleanup
 }

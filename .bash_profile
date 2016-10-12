@@ -32,8 +32,22 @@ complete -W "NSGlobalDomain" defaults
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal iTerm" killall
 
-# If possible, add tab completion for many more commands
-[ -f /etc/bash_completion ] && source /etc/bash_completion
+# bash completion.
+if  which brew > /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
+    source "$(brew --prefix)/share/bash-completion/bash_completion";
+elif [ -f /etc/bash_completion ]; then
+    source /etc/bash_completion;
+fi;
+
+# homebrew completion
+if  which brew > /dev/null; then
+    source "$(brew --prefix)/etc/bash_completion.d/brew"
+fi;
+
+# hub completion
+if  which hub > /dev/null; then
+    source "$(brew --prefix)/etc/bash_completion.d/hub.bash_completion.sh";
+fi;
 
 source ~/.git-prompt.sh
 source ~/.git-completion.sh
