@@ -20,11 +20,9 @@ FORMULAS=(
 	moreutils
 	findutils
 	gnu-sed --with-default-names
-	bash
 	brew-cask
 	wget --enable-iri
 	git
-	bash-completion2
 	brew-cask-completion
 	grep
 	openssh
@@ -33,12 +31,7 @@ FORMULAS=(
 	node
 	ffmpeg --with-libvpx
 	youtube-dl
-	thefuck
-	z
-	gh
-	git-radar
-	hub
-	
+
 	mongodb
 	phantomjs
 	macvim --override-system-vim --custom-icons --with-lua
@@ -72,45 +65,18 @@ FORMULAS=(
 
 # Homebrew casks
 APPS=(
-	mojibar
 	qlcolorcode
 	qlstephen
 	qlmarkdown
 	quicklook-json
 	qlprettypatch
 	quicklook-csv
-# 	dropbox
-# 	transmission
-# 	torbrowser
-# 	google-chrome
-# 	google-chrome-canary
-# 	firefox
-# 	firefox-aurora
-# 	firefox-nightly
-# 	webkit-nightly
-# 	opera
-# 	opera-next
-# 	caffeine
-# 	alfred
-# 	dash
-# 	imagealpha
-# 	imageoptim
-# 	iterm2
-# 	sequel-pro
-# 	sublime-text-3
-# 	the-unarchiver
-# 	sketch
-# 	skype
-# 	transmit
-# 	virtualbox
-# 	vlc
-# 	betterzipql
-# 	recordit
-# 	transmission
-# 	appcleaner
-# 	betterzipql
-# 	webp-quicklook
-# 	suspicious-package
+	betterzipql
+	qlimagesize
+	webpquicklook
+	suspicious-package
+	quicklookase
+	qlvideo
 )
 
 FONTS=(

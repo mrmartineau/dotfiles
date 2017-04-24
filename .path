@@ -1,8 +1,0 @@
-## Export PATH
-export PATH=/usr/local/bin:/usr/local/opt/ruby/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin/npm:/opt/local/bin:/usr/local/share/npm/bin:/opt/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$HOME/.yarn/bin:$PATH
-
-## Use gnu tools instead
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
-
-## Modify NODE_PATH
-export NODE_PATH=lib:/usr/local/lib/node_modules

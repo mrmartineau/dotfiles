@@ -1,51 +1,42 @@
 NPM=(
-	grunt-cli
 	webpack
-
-	browserify
-	watchify
-	disc
-	inherits
+	gulp-cli
+	grunt-cli
 
 	yo
 	generator-kickoff
 	generator-generator
-	
+
 	n
 	nodemon
 	ntl
 	npm-check
 	live-server
-	learnyounode
-	
-	now
-	now-serve
 
+	now
+	serve
+
+	prettier
 	eslint
 	stylestats
 
 	tmi
 	psi
 	a11y
-
-	karma-cli
-	istanbul
-	jasmine
-	phantomas
-
-	gh
-	gg
+	lighthouse
 
 	vtop
 
-	finch
-	
-	commitizen
-	
 	concurrently
-	parallelshell
-	
-	gifi
+
+	rimraf
+
+	alfred-emoj
+	alfred-npms
+
+	create-react-app
+
+	david
 )
 
 echo "Installing global npm packages..."
