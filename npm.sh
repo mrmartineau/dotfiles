@@ -18,6 +18,7 @@ NPM=(
 
 	prettier
 	eslint
+	xo
 	stylestats
 
 	tmi
@@ -35,8 +36,11 @@ NPM=(
 	alfred-npms
 
 	create-react-app
+	create-next-app
 
 	david
+
+	hpm-cli
 )
 
 echo "Installing global npm packages..."
