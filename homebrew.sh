@@ -9,58 +9,63 @@ TAPS=(
 	caskroom/cask
 	caskroom/fonts
 	caskroom/versions
-	tobli/browsertime
-	michaeldfallen/formula/
-	josegonzalez/homebrew-php/
 )
 
 # Homebrew Formulas
 FORMULAS=(
-	coreutils
-	moreutils
-	findutils
-	gnu-sed --with-default-names
+	autojump
+	awscli
 	brew-cask
-	wget --enable-iri
-	git
 	brew-cask-completion
-	grep
-	openssh
-	screen
-	tree
-	node
+	circleci
+	coreutils
+	exa
 	ffmpeg --with-libvpx
-	youtube-dl
-
-	mongodb
-	phantomjs
-	macvim --override-system-vim --custom-icons --with-lua
+	findutils
+	fish
+	fzf
+	gh
+	grep
+	git
+	git-flow
+	git-lfs
+	git-standup
+	hadolint
+	highlight
+	hub
 	imagemagick --with-webp
-	nginx
-	mysql
-	todo-txt
-	ctags
-	# Python & work related stuff
-	python3 #2.7.8
-	gdal #1.11.1
-	geos #3.4.2
-	postgis #2.1.4
-	postgresql #9.3.5
-	proj #4.8.0
-	elasticsearch-0.20 #0.20.6
-	libmemcached #1.0.18
-	redis
+	iperf3
+	jq
+	lazygit
+	lua
 	lynx
-	pigz
-	rename
-	rhino
-	webkit2png
-	zopfli
-	p7zip
-	pv
-	ack
-	php55
-	lua52
+	mkcert
+	mongodb
+	moreutils
+	mtr
+	n
+	nginx
+	nmap
+	node
+	nspr
+	nss
+	openssh
+	openssl
+	python
+	rbenv
+	readline
+	ripgrep
+	sqlite
+	starship
+	telnet
+	tree
+	unbound
+	watchman
+	webp
+	wget --enable-iri
+	wtfutil
+	yarn
+	youtube-dl
 )
 
 # Homebrew casks
@@ -74,9 +79,54 @@ APPS=(
 	betterzipql
 	qlimagesize
 	webpquicklook
-	suspicious-package
 	quicklookase
 	qlvideo
+	insomnia
+	google-chrome
+	firefox
+	postman
+	visual-studio-code
+	station
+	slack
+	tower
+	spotify
+	1password
+	signal
+	dash
+	notion
+	alfred
+	bartender
+	choosy
+	fantastical
+	charles
+	daisydisk
+	docker
+	figma
+	flux
+	gas-mask
+	hyper
+	iina
+	iterm2
+	imageoptim
+	istat-menus
+	kap
+	karabiner-elements
+	virtualbox
+	virtualbox-extension-pack
+	ngrok
+	balenaetcher
+	transmission
+	mounty
+	meld
+	keka
+	graphiql
+	suspicious-package
+	aerial
+	aerial
+	bettertouchtool
+	keepingyouawake
+	tableplus
+	keycastr
 )
 
 FONTS=(
