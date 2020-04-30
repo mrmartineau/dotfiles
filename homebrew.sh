@@ -30,6 +30,8 @@ FORMULAS=(
 	git-flow
 	git-lfs
 	git-standup
+	gnu-sed --with-default-names
+	gnupg
 	hadolint
 	highlight
 	hub
@@ -62,7 +64,7 @@ FORMULAS=(
 	unbound
 	watchman
 	webp
-	wget --enable-iri
+	wget --with-iri
 	wtfutil
 	yarn
 	youtube-dl

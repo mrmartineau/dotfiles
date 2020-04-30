@@ -1,46 +1,31 @@
 NPM=(
-	webpack
-	gulp-cli
-	grunt-cli
-
-	yo
-	generator-kickoff
-	generator-generator
-
 	n
-	nodemon
 	ntl
-	npm-check
-	live-server
-
 	now
 	serve
-
-	prettier
-	eslint
-	xo
 	stylestats
-
-	tmi
-	psi
-	a11y
-	lighthouse
-
 	vtop
-
-	concurrently
-
 	rimraf
-
 	alfred-emoj
 	alfred-npms
-
 	create-react-app
-	create-next-app
-
-	david
-
 	hpm-cli
+	alfred-apple-notes-search
+	canvas-sketch-cli
+	emma-cli
+	emoj
+	fx
+	ibrew
+	jscodeshift
+	majestic
+	np
+	npkill
+	partyparrot
+	plop
+	prettier
+	release-it
+	terser
+	yalc
 )
 
 echo "Installing global npm packages..."
